@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+header {
+  height: 40px;
+}
+.chessboard {
+  margin-top: 20px;
+  margin-left: 20px;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  height: calc(100% - 80px);
+  aspect-ratio: 1;
+}
+
+.square {
+  border: 1px solid black;
+}
+
+.white {
+  background-color: beige;
+}
+
+.black {
+  background-color: brown;
+}
