@@ -29,12 +29,21 @@ header {
 
 .square {
   border: 1px solid black;
+  font-size: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-.white {
-  background-color: beige;
-}
-
-.black {
-  background-color: brown;
+.square:nth-child(16n + 16),
+.square:nth-child(16n + 14),
+.square:nth-child(16n + 12),
+.square:nth-child(16n + 10),
+.square:nth-child(16n + 7),
+.square:nth-child(16n + 5),
+.square:nth-child(16n + 3),
+.square:nth-child(16n + 1) {
+  background: brown;
+  font-size: 30px;
 }
