@@ -14,10 +14,12 @@ h1 {
 
 header {
   height: 40px;
+  text-align: center;
 }
 .chessboard {
   margin-top: 20px;
-  margin-left: 20px;
+  margin-left: auto;
+  margin-right: auto;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 1fr);
